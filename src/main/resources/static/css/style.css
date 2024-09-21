@@ -1,0 +1,214 @@
+.promo-section {
+    max-width: 800px;
+    margin: 20px auto 0;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #c282cd !important;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column; /* Empilha o ícone e o texto */
+    align-items: center; /* Centraliza */
+}
+
+.navbar-title {
+    margin-left: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.carousel-inner img {
+    max-height: 800px; 
+    object-fit: cover; 
+}
+
+footer {
+    background-color: #c282cd;
+    padding: 20px 0;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+}
+
+.footer-text {
+    color: #ececec !important;
+}
+
+footer .nav {
+    display: flex;
+    justify-content: center;
+}
+
+footer .nav li {
+    margin: 0 10px;
+}
+
+footer .nav li a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+    font-size: 24px;
+}
+
+footer .nav li a:hover {
+    color: #c282cd;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #c282cd;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left 0.5s;
+    padding: 16px;
+     flex-grow: 1; 
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    color: #e8e8e8;
+    position: absolute; 
+    right: 20px; 
+    top: 5px; 
+    background-color: transparent; 
+    border: none; 
+    padding: 10px;
+}
+
+.openbtn:hover {
+    color: #FFD700;
+}
+
+.btn-personalizado {
+    background-color: #c282cd;
+    color: #fff;
+    border-color: #FFD700;
+}
+
+.btn-personalizado:hover {
+    background-color: #FFC107;
+    border-color: #FFC107;
+}
+
+#loanForm {
+    margin-top: 20px;
+}
+
+#result {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.vantagem-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.vantagem-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.vantagem-text {
+    margin-top: 20px;
+}
+
+.vantagem-text h2 {
+    font-size: 24px;
+    color: #343a40;
+    text-align: center;
+}
+
+.vantagem-text ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.vantagem-text ul li {
+    font-size: 16px;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+footer {
+    background-color: #c282cd;
+    padding: 20px 0;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+    margin-top: auto;
+}
+
+.card-text {
+    font-family: 'Poppins', sans-serif;
+}
+
+.categoria-titulo {
+    font-family: 'Pacifico', cursive; /* Ou escolha outra fonte que preferir */
+    font-size: 2.5em; /* Ajuste o tamanho da fonte, se necessário */
+    color: #ff8c00; /* Opcional: mudar a cor do texto */
+}
+
+.btn-personalizado {
+    background-color: #c282cd; /* Cor do botão */
+    color: #fff;
+    border-color: #FFD700;
+    padding: 10px 20px; /* Ajuste o padding se necessário */
+}
+
+.btn-personalizado:hover {
+    background-color: #FFC107;
+    border-color: #FFC107;
+}
